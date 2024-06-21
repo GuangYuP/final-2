@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 工具介紹網站</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #333;
+        }
+        .tool {
+            margin-bottom: 40px;
+        }
+        .tool h2 {
+            color: #0056b3;
+        }
+        .tool p {
+            margin: 10px 0;
+        }
+        .tool .description, .tool .applications, .tool .instructions {
+            margin-bottom: 20px;
+        }
+        .tool img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #0056b3;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI 工具介紹網站</h1>
+        <nav>
+            <a href="#chatgpt">ChatGPT</a>
+            <a href="#dalle">DALL-E</a>
+            <a href="#tensorflow">TensorFlow</a>
+            <a href="#opencv">OpenCV</a>
+            <a href="#keras">Keras</a>
+        </nav>
+        <div class="tool" id="chatgpt">
+            <h2>1. ChatGPT</h2>
+            <div class="description">
+                <h3>功能介紹</h3>
+                <p>ChatGPT 是一種基於 GPT-4 的語言模型，能夠進行自然語言處理對話。它能夠理解並生成類似人類語言的回應，適用於各種對話應用。</p>
+            </div>
+            <div class="applications">
+                <h3>應用範圍</h3>
+                <p>ChatGPT 可用於客服、教育、寫作輔助、語音助理、互動遊戲等多種場景。</p>
+            </div>
+            <div class="instructions">
+                <h3>操作介紹</h3>
+                <p>使用者只需輸入問題或命令，ChatGPT 即可生成相關回答或完成指定任務。操作簡單直觀，適合各類用戶。</p>
+                <img src="https://via.placeholder.com/800x400.png?text=ChatGPT+示例" alt="ChatGPT 示例">
+            </div>
+        </div>
+        <div class="tool" id="dalle">
+            <h2>2. DALL-E</h2>
+            <div class="description">
+                <h3>功能介紹</h3>
+                <p>DALL-E 是一種生成式模型，能夠根據文字描述生成圖像。它結合了語言理解和圖像生成技術，能夠創造出前所未見的圖像。</p>
+            </div>
+            <div class="applications">
+                <h3>應用範圍</h3>
+                <p>DALL-E 適用於藝術創作、廣告設計、原型設計、教育和科研等領域，提供創新的視覺解決方案。</p>
+            </div>
+            <div class="instructions">
+                <h3>操作介紹</h3>
+                <p>用戶輸入文字描述，DALL-E 即可生成對應的圖像。系統支持多種風格和細節設定，滿足不同創作需求。</p>
+                <img src="https://via.placeholder.com/800x400.png?text=DALL-E+示例" alt="DALL-E 示例">
+            </div>
+        </div>
+        <div class="tool" id="tensorflow">
+            <h2>3. TensorFlow</h2>
+            <div class="description">
+                <h3>功能介紹</h3>
+                <p>TensorFlow 是一個開源的機器學習框架，適用於構建和訓練機器學習模型。它提供了豐富的工具和資源，支持多種平台和語言。</p>
+            </div>
+            <div class="applications">
+                <h3>應用範圍</h3>
+                <p>TensorFlow 廣泛應用於深度學習、數據分析、自然語言處理、圖像識別、預測分析等多個領域。</p>
+            </div>
+            <div class="instructions">
+                <h3>操作介紹</h3>
+                <p>用戶可以通過Python代碼編寫，使用TensorFlow提供的API來構建和訓練模型。官方文檔和社群資源豐富，易於上手。</p>
+                <img src="https://via.placeholder.com/800x400.png?text=TensorFlow+示例" alt="TensorFlow 示例">
+            </div>
+        </div>
+        <div class="tool" id="opencv">
+            <h2>4. OpenCV</h2>
+            <div class="description">
+                <h3>功能介紹</h3>
+                <p>OpenCV 是一個開源的電腦視覺和機器學習軟件庫，提供了數千個優化的算法，可用於圖像和視頻分析。</p>
+            </div>
+            <div class="applications">
+                <h3>應用範圍</h3>
+                <p>OpenCV 被廣泛應用於面部識別、運動檢測、物體分類、圖像增強、深度學習等多個領域。</p>
+            </div>
+            <div class="instructions">
+                <h3>操作介紹</h3>
+                <p>用戶可以通過C++、Python等多種語言編寫代碼，使用OpenCV進行圖像處理和電腦視覺應用開發。</p>
+                <img src="https://via.placeholder.com/800x400.png?text=OpenCV+示例" alt="OpenCV 示例">
+            </div>
+        </div>
+        <div class="tool" id="keras">
+            <h2>5. Keras</h2>
+            <div class="description">
+                <h3>功能介紹</h3>
+                <p>Keras 是一個高階神經網絡API，能夠運行在TensorFlow之上，簡化了深度學習模型的構建和訓練過程。</p>
+            </div>
+            <div class="applications">
+                <h3>應用範圍</h3>
+                <p>Keras 被廣泛應用於學術研究、商業應用和快速原型開發，支持卷積神經網絡（CNN）、遞歸神經網絡（RNN）等模型。</p>
+            </div>
+            <div class="instructions">
+                <h3>操作介紹</h3>
+                <p>用戶通過Python代碼編寫，使用Keras提供的簡單而直觀的API來構建、訓練和評估深度學習模型。</p>
+                <img src="https://via.placeholder.com/800x400.png?text=Keras+示例" alt="Keras 示例">
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2024 AI 工具介紹網站. 保留所有權利.</p>
+        </footer>
+    </div>
+</body>
+</html>
